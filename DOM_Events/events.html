@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring Events</title>
+</head>
+<body>
+    <h1>hello good people</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium quod, ducimus illum tenetur, sint unde sunt porro beatae nobis, explicabo sed aliquid nulla aut odio harum veniam impedit quam quisquam?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, maxime, qui explicabo doloremque dolorum itaque reiciendis obcaecati eveniet nesciunt vero ea possimus. Veniam accusamus excepturi rem quasi est, earum neque.</p>
+    <button onclick="handleClick()">click me</button>
+    <!-- btn*3{click me-$} -->
+    <button>click me-1</button>
+    <button id="second_btn">click me-2</button>
+    <button>click me-3</button>
+    <button id="lastButton">click me-4</button>
+    <script >
+     document.getElementById('lastButton').addEventListener('click',function(){
+         document.body.style.color ='green';
+     })
+
+    //     function handleClick(){
+            // document.body.style. background='red';    >>type two<<
+    //     }
+    //    const secondButton = document.getElementById('second_btn');
+    //    secondButton.addEventListener('click',handleClick) third type
+    //   secondButton.onclick= handleClick; type two
+    //   function(){
+    //        console.log('second person clicked');     >>type one<<
+    //   }
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+/* .my-style {
+ color: tomato;
+ font: 200;
+}
+
+.my-style2{
+    color: #e90d5d;
+    font: 600;
+}
+
+.my-style3{
+    color: #e5e90d;
+    font: 600;
+} */
+
+/* animation */
+.myButton{
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+    
+
+}
+
+.anim{
+    box-shadow:0 15px 18px #e90d5d;
+    opacity: 0.6;
+}
